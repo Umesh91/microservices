@@ -1,0 +1,5 @@
+steps:
+ -task: Maven@3
+  inputs:
+    mavenPomFile: 'SpringBootActuatorDemo/pom.xml'
+    goals: 'clean install'

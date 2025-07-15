@@ -1,0 +1,3 @@
+com\SpringBootActuatorDemo\indicator\CustomEndpoint.class
+com\SpringBootActuatorDemo\indicator\CustomHealthIndicator.class
+com\SpringBootActuatorDemo\SpringBootActuatorDemoApplication.class
