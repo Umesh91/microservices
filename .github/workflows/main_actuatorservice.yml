@@ -41,7 +41,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: java-app
-          path: '${{ microservices/tree/main/SpringBootActuatorDemo }}/target/*.jar'
+          path: '${{ /SpringBootActuatorDemo }}/target/*.jar'
 
   deploy:
     runs-on: ubuntu-latest
