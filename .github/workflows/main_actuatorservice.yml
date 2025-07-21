@@ -42,7 +42,7 @@ jobs:
         with:
           name: java-app
           #path: '${{ /microservices/SpringBootActuatorDemo}}/target/*.jar'
-          path: /microservices/SpringBootActuatorDemo/target/*.jar
+          path: /microservices/SpringBootActuatorDemo/target/SpringBootActuatorDemo-0.0.1-SNAPSHOT.jar
 
   deploy:
     runs-on: ubuntu-latest
